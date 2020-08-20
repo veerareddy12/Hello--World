@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{%load static %}
+<html>
+<head>
+	<title>IMAGE OUTPUT</title>
+	<link rel="stylesheet" type="text/css" href="{% static "css/fifthapp.css"%}">
+</head>
+<body text='orange'>
+	<div style="border:solid;width:10%;background-color:pink">
+		<img src="{% static "images/abcd.jpg"%}" height="160px" width="150px">
+	</div>
+	<div style="border:solid;width:82.5%;background-color:green;float:right;margin-top:-160px;
+	height:150px">
+		<center>
+			<p>Message is:{{msg}}</p>
+			<p>Server times is:{{date}}</p>
+		</center>
+	</div>
+
+</body>
+</html>
